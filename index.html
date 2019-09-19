@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
     <link rel="stylesheet"  type="text/css" href="main.css">
   </head>
   <body>
@@ -16,13 +17,13 @@
           <div class="logo"><h5><strong>Fox.</strong><br></h5><h6>University</h6></div>
         </div>
         <div class="col-lg-3">
-          <div class="email"><p><i class="fas fa-paper-plane"></i><strong>Email</strong><br></p><p>youremail@email.com</p></div>
+          <div class="email"><p><i class="fas fa-paper-plane" style="color:#f55f18;"></i><strong>Email</strong><br></p><p>youremail@email.com</p></div>
         </div>
         <div class="col-lg-3">
-            <div class="call"><p><i class="fas fa-phone"></i><strong>Call</strong><br></p><p>Call Us: 555-555-5555</p></div>
+            <div class="call"><p><i class="fas fa-phone" style="color:#f55f18;" ></i><strong>Call</strong><br></p><p>Call Us: 555-555-5555</p></div>
         </div>
         <div class="col-lg-3">
-          <button class="btn btn-block btn-primary">Apply Now</button>
+          <button class="btn btn-block btn-primary btn-no-border">Apply Now</button>
         </div>
       </div>
      <div class="row">
@@ -34,8 +35,10 @@
            <a class="staff" href="#staff">Staff</a>
            <a class="blog" href="#blog">Blog</a>
            <a class="contact" href="#contact">Contact</a>
-           <input type="text" placeholder="Search" name="search">
-           <button type="submit"><i class="fa fa-search"></i></button>
+           <div class="search">
+            <input type="text" placeholder="Search" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+           </div>
          </div>
        </div>
      </div>
@@ -51,28 +54,24 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-3">
-          <div class="card">
-            <div class="top"><i class="fas fa-chalkboard-teacher"></i></div>
-            <div class="bottom"><p>Certified Teachers</p><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="card">
-          ` <div class="top"><i class="fas fa-book-reader"></i></div>
-            <div class="bottom"><p>Special Education</p><br><p>In cursus mi scelerisque euismod lobortis. Ut eget rutrum mauris.</p></div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="card">
-            <div class="top"><i class="fas fa-book"></i></div>
-            <div class="bottom"><p>Book and Library</p><br><p>Suspendisse potenti. Pellentesque quis diam vitae nibh vestibulum finibus.</p></div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="card">
-            <div class="top"><i class="fas fa-scroll"></i></div>
-            <div class="bottom"><p>Sport Clubs</p><br><p>Fusce mattis in libero ac dapibus. Integer ac arcu ligula. Suspendisse potenti.</p></div>
+        <div class="col-lg-12">
+          <div class="cardWrapper">
+            <div class="defaultCard">
+              <div class="top"><i class="fas fa-chalkboard-teacher"></i></div>
+              <div class="bottom"><p>Certified Teachers</p><br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+            </div>
+            <div class="defaultCard">
+              <div class="top"><i class="fas fa-book-reader"></i></div>
+              <div class="bottom"><p>Special Education</p><br><p>In cursus mi scelerisque euismod lobortis. Ut eget rutrum mauris.</p></div>
+            </div>
+            <div class="defaultCard">
+              <div class="top"><i class="fas fa-book"></i></div>
+              <div class="bottom"><p>Book and Library</p><br><p>Suspendisse potenti. Pellentesque quis diam vitae nibh vestibulum finibus.</p></div>
+            </div>
+            <div class="defaultCard">
+              <div class="top"><i class="fas fa-scroll"></i></div>
+              <div class="bottom"><p>Sport Clubs</p><br><p>Fusce mattis in libero ac dapibus. Integer ac arcu ligula. Suspendisse potenti.</p></div>
+            </div>
           </div>
         </div>
       </div>

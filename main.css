@@ -1,0 +1,169 @@
+.logo {
+  font-family: 'Manjari', sans-serif;
+  margin-top: 15px;
+}
+
+i {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.btn-no-border {
+  border-color: transparent;
+}
+
+.btn-no-border:hover {
+  border-color: transparent;
+}
+
+.btn {
+  background-color: #f55f18;
+  text-decoration: none;
+  margin-top: 15px;
+  font-family: 'Manjari', sans-serif;
+}
+
+.btn:hover {
+  background-color: #f55f18;
+  text-decoration: none;
+}
+
+.email {
+  font-family: 'Manjari', sans-serif;
+  margin-top: 15px;
+}
+
+.call {
+  font-family: 'Manjari', sans-serif;
+  margin-top: 15px;
+}
+
+.navTwo {
+  background-color: #0c1227;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  color: white;
+  text-decoration: none;
+  font-family: 'Manjari', sans-serif;
+  margin-right: 50px;
+}
+
+.home:hover {
+  font-family: 'Manjari', sans-serif;
+  color: #f55f18;
+  text-decoration: none;
+}
+
+.about {
+  color: white;
+  text-decoration: none;
+  font-family: 'Manjari', sans-serif;
+  margin-right: 50px;
+}
+
+.about:hover {
+  font-family: 'Manjari', sans-serif;
+  color: #f55f18;
+  text-decoration: none;
+}
+
+.courses {
+  color: white;
+  text-decoration: none;
+  font-family: 'Manjari', sans-serif;
+  margin-right: 50px;
+}
+
+.courses:hover {
+  font-family: 'Manjari', sans-serif;
+  color: #f55f18;
+  text-decoration: none;
+}
+
+.staff {
+  color: white;
+  text-decoration: none;
+  font-family: 'Manjari', sans-serif;
+  margin-right: 50px;
+}
+
+.staff:hover {
+  font-family: 'Manjari', sans-serif;
+  color: #f55f18;
+  text-decoration: none;
+}
+
+.blog {
+  color: white;
+  text-decoration: none;
+  font-family: 'Manjari', sans-serif;
+  margin-right: 50px;
+}
+
+.blog:hover {
+  font-family: 'Manjari', sans-serif;
+  color: #f55f18;
+  text-decoration: none;
+}
+
+.contact {
+  color: white;
+  text-decoration: none;
+  font-family: 'Manjari', sans-serif;
+  margin-right: 50px;
+}
+
+.contact:hover {
+  font-family: 'Manjari', sans-serif;
+  color: #f55f18;
+  text-decoration: none;
+}
+
+.navTwo input[type='text'] {
+  margin-left: 100px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #0c1227;
+  border-color: #0c1227;
+  color: white;
+}
+
+.navTwo .search button {
+  border-radius: 15px;
+  color: white;
+  background-color: #0c1227;
+  border-color: #0c1227;
+}
+
+.teach {
+  width: 100%;
+}
+
+.teach img {
+  width: 100%;
+}
+
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.defaultCard {
+  color: white;
+  text-align: center;
+  width: 25%;
+}
+
+.defaultCard:nth-child(odd) {
+  background-color: #f55f18;
+}
+
+.defaultCard:nth-child(even) {
+  background-color: #0c1227;
+}
